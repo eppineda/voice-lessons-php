@@ -1,0 +1,17 @@
+{
+    "name": "enrique/voice-lessons-php",
+    "description": "demonstration of server-side transformation of xml data, rendered as a web page",
+    "type": "project",
+    "license": "NONE",
+    "autoload": {
+        "psr-4": {
+            "Enrique\\VoiceLessonsPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "enrique pineda"
+        }
+    ],
+    "require": {}
+}
