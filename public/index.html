@@ -9,18 +9,18 @@
 <body>
 	<h1>Voice Lessons</h1>
 	<p>Browse a catalog of singing lessons and, optionally, join a class.</p>
-	<p>This catalog is exposed via <a href="public/data/raw.xml">a REST endpoint</a> that returns the catalog of courses as an XML document.</p>
+	<p>This catalog is exposed via <a href="data/raw.xml">a REST endpoint</a> that returns the catalog of courses as an XML document.</p>
 
 	<h2>Two implementations</h2>
 	<p>This app demonstrates two ways to handle XML data in an HTML document:</p>
 	<ul>
-		<li>Apply <a href="public/data/courses.xsl">an XSL stylesheet</a> to the XML, <a href="public/data/courses.xml">using the web browser's built-in rendering engine</a>, or</li>
-		<li>Convert the XML to JSON on the server, when a <a href="public/courses.html">standard HTML document is requested</a><sup>1</sup>.</li>
+		<li>Apply <a href="data/courses.xsl">an XSL stylesheet</a> to the XML, <a href="data/courses.xml">using the web browser's built-in rendering engine</a>, or</li>
+		<li>Convert the XML to JSON on the server, when a <a href="courses.html">standard HTML document is requested</a><sup>1</sup>.</li>
 	</ul>
 	<h3>XML Transformation</h3>
-	<p><a href="public/data/raw.xml">Raw XML data</a> is transformed into an XHTML-like document according to <a href="public/data/courses.xsl">the XSL stylesheet</a> applied to it. The result is viewed <a href="public/data/courses.xml">here</a>.</p>
+	<p><a href="data/raw.xml">Raw XML data</a> is transformed into an XHTML-like document according to <a href="data/courses.xsl">the XSL stylesheet</a> applied to it. The result is viewed <a href="data/courses.xml">here</a>.</p>
 	<h3>Server-generated web page</h3>
-	<p>Special HTMX attributes are inseerted into a standard<sup>1</sup> HTML5 document so that a server application endpoint<sup>2</sup> is invoked. <a href="public/courses.html">Here is the (alternate) web page.</a></p>
+	<p>Special HTMX attributes are inseerted into a standard<sup>1</sup> HTML5 document so that a server application endpoint<sup>2</sup> is invoked. <a href="courses.html">Here is the (alternate) web page.</a></p>
 	<hr>
 	<p><sup>1</sup>A special AJAX library called <a href="http://htmx.org">HTMX</a> is used to invoke endpoints exposed by the servrer application.</p>
 	<p><sup>2</sup>Server application was written with MojoJS for the NodeJS programming language.</p>
