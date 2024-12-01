@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<catalog>
+	<course>
+    		<id>101</id>
+    		<title>Scales</title>
+    		<description>Basic scales, voice strengthening</description>
+  	</course>
+  	<course>
+    		<id>102</id>
+    		<title>Nursery Rhymes Revisited</title>
+    		<description>Re-learning some classics with perfect pitch</description>
+  	</course>
+  	<course>
+    		<id>103</id>
+    		<title>Inspirational Songs</title>
+    		<description>Practice with Choral Basics</description>
+  	</course>
+</catalog>
