@@ -9,16 +9,11 @@
 <body hx-boost="true">
 	<h1>Course Catalog</h1>
 	<p>These are all of the classes availble from this singing school.</p>
-  	<table border="1" hx-get="/all" hx-trigger="load" hx-swap="innerHTML" hx-target="this">
+  	<table border="1" hx-get="/all" hx-trigger="load" hx-swap="beforeend" hx-target="this">
 		<tr bgcolor="#9acd32">
 			<th style="text-align:left">Course Number</th>
 			<th style="text-align:left">Course Title</th>
 			<th style="text-align:left">Course Description</th>
-		</tr>
-		<tr>
-			<td><xsl:value-of select="id" /></td>
-			<td><xsl:value-of select="title" /></td>
-			<td><xsl:value-of select="description" /></td>
 		</tr>
   </table>
 </body>
