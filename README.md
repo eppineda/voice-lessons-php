@@ -1,6 +1,12 @@
 # Slim Framework 4 Skeleton Application
 
-## Erratum
+## QuickStart 
+```
+php -S localhost:8080 -t public
+```
+
+## Dev Environment
+### Erratum
 **php-xml** is missing. Get it, e.g.:
 
 ```
@@ -24,7 +30,7 @@ Use this skeleton application to quickly setup and start working on a new Slim F
 
 This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
 
-## Install the Application
+### Install the Application
 
 Run this command from the directory in which you want to install your new Slim Framework application. You will require PHP 7.4 or newer.
 
